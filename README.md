@@ -33,6 +33,7 @@ Unisolver achieves remarkable results on three challenging large-scale datasets,
 ![image-20250716022058284](./figures/2D_results.png)
 
 <center><b>Table 3.</b> Results on 2D mixed PDEs.</center>
+
 ### Citation
 
 If you find this repo useful, please cite our paper.
