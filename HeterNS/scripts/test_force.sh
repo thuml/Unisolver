@@ -2,10 +2,11 @@ export CUDA_VISIBLE_DEVICES=6
 export NCCL_P2P_LEVEL=NVL
 
 model_name=Unisolver_HeterNS
+data_path=YOUR_DATA_PATH
 pretrain_path=$YOUR_CHECKPOINT_PATH
 
 python exp_ns_test_force_0.5.py \
-  --data-path /workspace/zhouhang/lsm \
+  --data-path $data_path \
   --in_dim 10 \
   --out_dim 1 \
   --ntest 200 \
@@ -23,7 +24,7 @@ python exp_ns_test_force_0.5.py \
   --model-pretrain-path $pretrain_path
 
 python exp_ns_test_force_1.5.py \
-  --data-path /workspace/zhouhang/lsm/ \
+  --data-path $data_path/ \
   --in_dim 10 \
   --out_dim 1 \
   --ntest 200 \
@@ -41,7 +42,7 @@ python exp_ns_test_force_1.5.py \
   --model-pretrain-path $pretrain_path
 
 python exp_ns_test_force_2.5.py \
-  --data-path /workspace/zhouhang/lsm \
+  --data-path $data_path \
   --in_dim 10 \
   --out_dim 1 \
   --ntest 200 \
@@ -59,7 +60,7 @@ python exp_ns_test_force_2.5.py \
   --model-pretrain-path $pretrain_path
 
 python exp_ns_test_force_3.5.py \
-  --data-path /workspace/zhouhang/lsm \
+  --data-path $data_path \
   --in_dim 10 \
   --out_dim 1 \
   --ntest 200 \

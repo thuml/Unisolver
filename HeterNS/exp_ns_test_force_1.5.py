@@ -51,7 +51,7 @@ print(count_params(model))
 # load data and data normalization
 ################################################################
 
-test_data = np.load(os.path.join(args.data_path, 'results_save_200/ns_vis_nu1e-05_m_1.5_u_200.npy'))
+test_data = np.load(os.path.join(args.data_path, 'ns_vis_nu1e-05_m_1.5_u_200.npy'))
 test_data = torch.from_numpy(np.concatenate([test_data], axis=0))
 
 print(test_data.shape)

@@ -1,0 +1,9 @@
+torch
+matplotlib
+scipy
+h5py
+timm
+tqdm
+linear_attention_transformer
+tensorboard
+torchmetrics

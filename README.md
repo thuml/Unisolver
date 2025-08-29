@@ -46,6 +46,10 @@ If you find this repo useful, please cite our paper.
 }
 ```
 
+### Get started
+
+Please refer to different folders to get detailed experiment instructions.
+
 ### Contact
 
 If you have any questions or want to use the code, please contact zhou-h23@mails.tsinghua.edu.cn.
